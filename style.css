@@ -1,0 +1,127 @@
+body {
+    background-image: url('../my_media2/blue_sky.jpg'); /* Replace 'your-image.jpg' with the path to your image file */
+    background-size: cover; /* This scales the image to cover the entire background */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-attachment: fixed; /* Fixed background, so it doesn't scroll with the page */
+}
+.card{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.card.glass {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(5px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.card-header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.items-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0.5rem 0;
+}
+
+#cityName {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+/* Additional styling for spans if needed */
+.items span {
+  font-weight: bold;
+  color: #007BFF; /* Change the color as desired */
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 0.9rem 0.5;
+  align-items: center;
+}
+
+.items span {
+  text-align: right;
+  margin-left: 5rem;
+}
+
+.items h5 {
+  flex: 1;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+
+#city {
+  width: 250px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Optional: Center the search button vertically */
+#submit {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  align-self: center;
+}
+
+#submit:hover {
+  transition: box-shadow 1s ease;
+  transform: scale(0.9);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a shadow effect on hover */
+}
+
+.mail_icon{
+  filter: brightness(150%);
+}
+
+.mail_icon:hover{
+  color: rgb(31, 70, 227);
+  transform: translate(-10px);
+}
+.mail_box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#mail_id{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding: 12px;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, .15);
+  backdrop-filter: blur(10px);
+  font-style: bold;
+  width:fit-content;
+  border-color: black;
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+.space{
+  margin: 100px;
+}
+
